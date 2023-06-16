@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Pricing component</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header-title">Our Pricing</h1>
+      <div class="header-plan">
+        <span>Annually</span>
+        <label class="switch">
+          <input type="checkbox" checked aria-label="Toggle monthly plan" />
+          <span class="slider"></span>
+        </label>
+        <span>Monthly</span>
+      </div>
+    </header>
+    <main class="cards">
+      <div class="card">
+        <h2 class="card-title">Basic</h2>
+        <div class="card-price">
+          <span class="price-currency">$</span>
+          <span class="price-value monthly">19.99</span>
+          <span class="price-value annually hidden">199.99</span>
+        </div>
+        <ul class="card-list">
+          <li class="card-list-item">500 GB Storage</li>
+          <li class="card-list-item">2 Users Allowed</li>
+          <li class="card-list-item">Send up to 3 GB</li>
+        </ul>
+        <a href="#" class="card-btn">
+          <span>Learn more</span>
+        </a>
+      </div>
+      <div class="card card-highlight">
+        <h2 class="card-title">Professional</h2>
+        <div class="card-price">
+          <span class="price-currency">$</span>
+          <span class="price-value monthly">24.99</span>
+          <span class="price-value annually hidden">249.99</span>
+        </div>
+        <ul class="card-list">
+          <li class="card-list-item">1 TB Storage</li>
+          <li class="card-list-item">5 Users Allowed</li>
+          <li class="card-list-item">Send up to 10 GB</li>
+        </ul>
+        <a href="#" class="card-btn">
+          <span>Learn more</span>
+        </a>
+      </div>
+      <div class="card">
+        <h2 class="card-title">Master</h2>
+        <div class="card-price">
+          <span class="price-currency">$</span>
+          <span class="price-value monthly">39.99</span>
+          <span class="price-value annually hidden">399.99</span>
+        </div>
+        <ul class="card-list">
+          <li class="card-list-item">2 TB Storage</li>
+          <li class="card-list-item">10 Users Allowed</li>
+          <li class="card-list-item">Send up to 20 GB</li>
+        </ul>
+        <a href="#" class="card-btn">
+          <span>Learn more</span>
+        </a>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Samson Dominic</a>
+    </div> 
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
